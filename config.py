@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "21769517"))
 API_HASH = environ.get("API_HASH", "a18bca05e643355610f88e15425287a7")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
-PICS = (environ.get('PICS', 'https://envs.sh/NXV.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://graph.org/file/03560208a3d9d49d21c88-d814aacb30a026c884.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7562079827').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "KIMIKO_ROBOT") # without @
 PORT = environ.get("PORT", "8080")
